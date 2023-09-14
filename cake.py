@@ -13,10 +13,10 @@ print("Welcome guys! First we will practice algorithms")
 def make_cake(flour, eggs, butter, sugar, salt, milk, bakingsoda):
     """This function makes a cake recipe for a beginner."""
     # Step 2: Make a list of our ingredients and store it in a variable 
-    ingredients = ['flour', 'eggs', 'butter', 'sugar', 'salt', 'milk', 'bakingsoda']
+    my_ingredients = ['flour', 'eggs', 'butter', 'sugar', 'salt', 'milk', 'bakingsoda']
 
     # Create a loop that checks if each ingredient is in the list and provides the corresponding recipe step
-    for ingredient in ingredients:
+    for ingredient in my_ingredients:
         if ingredient == 'flour' and flour:
             print("Add 2 lbs of flour")
         elif ingredient == 'eggs' and eggs:
